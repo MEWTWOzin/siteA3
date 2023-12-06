@@ -1,0 +1,74 @@
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilo da seção Home */
+#home-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo da seção de Vendas de Eletrônicos */
+#electronics-section {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo do cartão de produto */
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    font-size: 1.2em;
+}
+
+.product-card p {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Estilo do botão de compra */
+.buy-button {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #218838;
+}
